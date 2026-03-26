@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourav Sarangi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #e2e8f0;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+    }
+
+    .nav-right {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .btn {
+      background: #38bdf8;
+      color: #000;
+      padding: 10px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+      transform: scale(1.05);
+    }
+
+    .icon {
+      font-size: 20px;
+      color: #38bdf8;
+      transition: 0.3s;
+    }
+
+    .icon:hover {
+      transform: scale(1.2);
+      color: #0ea5e9;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 { font-size: 2.5rem; }
+    header p { color: #94a3b8; margin-top: 10px; }
+
+    section {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+
+    ul { margin-left: 20px; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+    }
+
+    /* MOBILE ULTRA PREMIUM */
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      .navbar { padding: 15px; }
+      .btn { padding: 8px 14px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div><strong>Sourav</strong></div>
+  <div class="nav-right">
+    <a href="https://www.linkedin.com/in/sourav-sarangi1999" target="https://www.linkedin.com/in/sourav-sarangi1999/">
+      <i class="fab fa-linkedin icon"></i>
+    </a>
+  </div>
+</div>
+
+<header>
+  <h1>Sourav Sarangi</h1>
+  <p>SAP IS-U Business Analyst | Deloitte USI</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>Business Analyst with 4+ years of experience at Deloitte USI, specializing in SAP IS-U in the energy utilities domain. Skilled in requirement gathering, stakeholder management, and delivering impactful solutions.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">SAP IS-U</div>
+    <div class="card">JIRA</div>
+    <div class="card">Project Management</div>
+    <div class="card">Excel</div>
+    <div class="card">Business Analysis</div>
+    <div class="card">SAP SD (Basic)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Work Experience</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Deloitte USI</h3>
+      <p>Business Analyst</p>
+      <ul>
+        <li>Worked on energy utilities projects</li>
+        <li>Accounts payable project</li>
+        <li>Device management & enhancements</li>
+        <li>Client handling & documentation</li>
+        <li>Improved workflow & reduced backlog</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Aashman Foundation</h3>
+      <p>HR Intern</p>
+      <ul>
+        <li>Screened 100+ resumes monthly</li>
+        <li>Reduced hiring time by 20%</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Tutedude</h3>
+      <p>Marketing Intern</p>
+      <ul>
+        <li>Worked on marketing campaigns</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>3 Spot Awards (3 consecutive years)</li>
+      <li>60,000 Vantage Points</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <div class="grid">
+    <div class="card">Claude 101 Certification</div>
+    <div class="card">AI Fluency: Anthropic</div>
+    <div class="card">Cloud Computing Basics</div>
+    <div class="card">Email Marketing: LinkedIn</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: Sourav410sarangi@gmail.com</p>
+    <p>LinkedIn: www.linkedin.com/in/sourav-sarangi1999</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Sourav Sarangi</p>
+</footer>
+
+</body>
+</html>
